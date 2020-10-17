@@ -22,3 +22,7 @@ function destructivelyRemoveLastKitten(name) {
 function destructivelyRemoveFirstKitten() {
   return kittens.shift()
 }
+
+function prependKitten(name) {
+  return[...kittens, name]
+}
